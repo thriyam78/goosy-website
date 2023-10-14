@@ -8,8 +8,8 @@ export default function BannerSection() {
       <Container>
         <div className="flex flex-col md:flex-row gap-4 justify-center mb-[10%] mt-20">
           <div className="flex flex-col gap-3 my-auto lg:w-6/12 ">
-            <p className="bg-[#e97543] py-1 px-2 md:p-2 lg:p-3 text-center rounded-full font-semibold text-white text-sm sm:text-base md:text-lg lg:text-xl w-fit">
-              Welcome to Goosey academy
+            <p className="bg-[#e97543] px-7 py-3  text-center rounded-full font-semibold text-white text-sm sm:text-base md:text-lg lg:text-xl w-fit">
+              Welcome to Goosy
             </p>
             <p className="text-white text-xl md:text-3xl lg:text-4xl font-semibold md:my-10">
               We craft digital experiences that bring your vision to life, one
@@ -21,7 +21,7 @@ export default function BannerSection() {
               audiences and drive success.
             </p>
 
-            <div className="flex flex-row gap-5">
+            <div className="flex flex-row gap-5 mt-8">
               <img src={SatisifedClients} alt="Clients" className="w-4/12" />
               <p className="font-semibold text-xl text-white md:my-auto">
                 100+ Satisfied Clients

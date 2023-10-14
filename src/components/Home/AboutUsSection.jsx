@@ -8,8 +8,8 @@ export default function AboutUsSection() {
       <div className="flex flex-row gap-[100px]">
         <img src={AboutSectionImg} alt="Image" className="w-[35%]" />
         <div className="flex flex-col gap-3 my-auto mx-auto">
-          <p className="bg-[#e97543] font-semibold  p-3 rounded-full text-white text-sm sm:text-sm md:text-base lg:text-lg w-fit">
-            About Goosey Academy
+          <p className="bg-[#e97543] font-semibold  px-7 py-3 rounded-full text-white text-sm sm:text-sm md:text-base lg:text-lg w-fit">
+            About Goosy
           </p>
           <p className="text-white text-lg md:text-xl lg:text-4xl font-semibold md:my-10">
             2+ Years of Experience in Development
