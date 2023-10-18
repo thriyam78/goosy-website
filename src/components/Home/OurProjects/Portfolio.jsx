@@ -50,7 +50,7 @@ export default function Portfolio() {
                   <div
                     className={`${
                       hasPrev ? "absolute" : "hidden"
-                    } top-0 bottom-0 left-0 flex justify-center items-center p-3 opacity-100 hover:opacity-30 cursor-pointer z-20`}
+                    } top-0 bottom-0 left-[-10px] md:left-0 flex justify-center items-center p-3 opacity-100 hover:opacity-30 cursor-pointer z-20`}
                     onClick={clickHandler}
                   >
                     <AiOutlineArrowLeft className="w-9 h-9 text-white" />
@@ -62,7 +62,7 @@ export default function Portfolio() {
                   <div
                     className={`${
                       hasNext ? "absolute" : "hidden"
-                    } top-0 bottom-0 right-0 flex justify-center items-center p-3 opacity-100 hover:opacity-30 cursor-pointer z-20`}
+                    } top-0 bottom-0 right-[-10px] md:right-0 flex justify-center items-center p-3 opacity-100 hover:opacity-30 cursor-pointer z-20`}
                     onClick={clickHandler}
                   >
                     <AiOutlineArrowRight className="w-9 h-9 text-white" />
@@ -74,10 +74,10 @@ export default function Portfolio() {
             >
               {projectData.map((currEle, index) => {
                 return (
-                  <div className="w-7/12 mx-auto">
+                  <div className="w-8/12 md:w-7/12 mx-auto">
                     <div className="my-10">
                       <img
-                        className="w-full h-full my-auto rounded-xl shadow-2xl shadow-black"
+                        className="w-full h-full my-auto md:rounded-xl md:shadow-2xl shadow-black"
                         src={currEle.image}
                         alt={currEle.image}
                       />

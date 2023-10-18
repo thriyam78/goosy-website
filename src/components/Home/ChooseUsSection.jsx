@@ -33,16 +33,18 @@ export default function ChooseUsSection() {
   ];
   return (
     <Container className={"mt-20 mb-20"}>
-      <div className="flex flex-row">
+      <div className="flex flex-col gap-10 md:gap-0 md:flex-row">
         {data.map((el, index) => (
           <div
-            className={`bg-[#25B6AD] flex flex-col mx-auto p-8 gap-7 text-center text-black w-10/12 ${
-              index === 2 ? "scale-115 bg-white rounded-xl w-9/12" : ""
+            className={`bg-[#25B6AD] flex flex-col mx-auto p-8 gap-7 text-center text-black w-10/12 rounded-xl md:rounded-none ${
+              index === 2
+                ? "md:scale-115 md:bg-white md:rounded-xl md:w-9/12"
+                : ""
             } ${
               index === 0
-                ? "rounded-tl-xl rounded-bl-xl"
+                ? "md:rounded-tl-xl md:rounded-bl-xl"
                 : index === 3
-                ? "rounded-tr-xl rounded-br-xl"
+                ? "md:rounded-tr-xl md:rounded-br-xl"
                 : ""
             }`}
           >

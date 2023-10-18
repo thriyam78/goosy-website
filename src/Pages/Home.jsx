@@ -8,10 +8,14 @@ import OurProjects from "../components/Home/OurProjects";
 import OurAchievements from "../components/Home/OurAchievements";
 import Benifit from "../components/Home/Benfits";
 import Contacts from "../components/Home/Contacts";
+import NavBar from "../components/Home/NavBar";
+import BackToTop from "../components/Home/BackToTop";
+import Footer from "../components/Home/Footer";
 
 export default function Home() {
   return (
     <div>
+      <NavBar />
       <BannerSection />
       <ChooseUsSection />
       <AboutUsSection />
@@ -21,6 +25,8 @@ export default function Home() {
       <OurProjects />
       <OurAchievements />
       <Contacts />
+      <BackToTop />
+      <Footer />
     </div>
   );
 }

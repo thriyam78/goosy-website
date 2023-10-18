@@ -10,8 +10,8 @@ module.exports = {
         115: "1.15",
       },
       boxShadow: {
-        custom: "8px 8px 8px rgba(0, 255, 255, 0.6)",
-        newcustom: "3px 3px 3px rgba(0, 255, 255, 0.6)",
+        custom: "8px 8px 8px rgba(0, 0, 0, 0.6)",
+        newcustom: "3px 3px 3px rgba(0, 0, 0, 0.6)",
       },
     },
   },

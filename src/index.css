@@ -11,10 +11,11 @@
 
 body {
   font-family: "Aerial", sans-serif;
-  color: white;
+  color: black;
 }
 
 html {
-  background-color: black;
+  background-color: rgba(240, 229, 229, 0.481);
+
   overflow-x: hidden;
 }
